@@ -1,14 +1,14 @@
 def solution(S):
     answer = ''
-    pair = {"{": "}", "(":")", "[":"]"}
+    pair = {')' : '(', ']' : '[', '}': '{'}
 
     stack = []
 
     for char in S:
-        if char in pair.keys():
+        if char in '({[':
             stack.append(char)
         else:
-            if (stack):
+            if stack:
                 top = stack.pop()
                 if (pair[char] != top):
                     return "FALSE"
@@ -16,3 +16,6 @@ def solution(S):
                 return "FALSE"
 
     return "TRUE"
+
+
+print(solution("(){}]"))
