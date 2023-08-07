@@ -22,3 +22,11 @@
 - 2차 2번 ✅
 - 2차 3번
 - 2차 4번 ✅
+
+### 문제 링크
+- 1차 
+  - https://colab.research.google.com/drive/1F1vJgbS75wG4RqWWSSnZapoMk9PWILsc#scrollTo=NZo_xwk9k7Wg
+- 2차
+  - https://colab.research.google.com/drive/1-keCr6PRuRmlGSWzuVAPxPeEt0jyQXrc#scrollTo=Zsm1M1OBgHwH
+- 3차
+  - https://colab.research.google.com/drive/1giKmu9aas-XgpQUNun45Df8rSKSzgwbn#scrollTo=y3t_aO7VArdS
